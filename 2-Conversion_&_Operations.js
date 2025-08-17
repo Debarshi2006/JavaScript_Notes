@@ -1,6 +1,6 @@
-// *****************Conversion*****************
+// ***************** Conversion *****************
 
-//---------Number conversion---------
+//--------- Number conversion ---------
 let score = "33"
 console.log(typeof score)  // Type-1
 console.log(typeof(score)) // Type-2 (as a method)
@@ -35,7 +35,7 @@ console.log(typeof value_in_num3)
 console.log(value_in_num3) // (NaN)
 // In case of boolean for true => 1 ; false => 0
 
-//---------Boolean conversion---------
+//--------- Boolean conversion ---------
 let isLogged = 1
 let booleanIsLogged = Boolean(isLogged)
 console.log(booleanIsLogged) // true
@@ -46,13 +46,13 @@ console.log(booleanIsLogged) // true
 // for null, it returns false.
 // for undefined, it returns false.
 
-//---------String conversion---------
+//--------- String conversion ---------
 let someNum = 333
 let stringNumber = String(someNum)
 console.log(stringNumber)
 console.log(typeof stringNumber)
 
-// *****************Oparations*****************
+// ***************** Oparations *****************
 
 console.log(3+2) // => Addition
 console.log(3-2) // => Subtraction
@@ -84,4 +84,5 @@ console.log(c)
 // prefix & postfix...........
 // read documents of js mdn on browser for better understanding.
 // link to study
+
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
