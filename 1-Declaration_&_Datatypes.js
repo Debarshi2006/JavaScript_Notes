@@ -1,4 +1,4 @@
-// *****************Declarations*****************
+// ***************** Declarations *****************
 
 const accountId = 144553
 let account_email = "debarshidas742@gmail.com"
@@ -20,7 +20,7 @@ because of issue in block scope and functional scope.
 
 console.table([account_email,accountPassword,accountCity,accountState])
 
-// *****************Datatypes*****************
+// ***************** Datatypes *****************
 
 // Depending on the memory allocation and accestion of data , datatypes are divided in two parts.
 //primitive & non-primitive.
@@ -42,7 +42,7 @@ console.log(id === anotherId)
 console.log(typeof null) //type object. 
 console.log(typeof undefined) // type undefined
 
-//---------Non-primitive or reference---------
+//--------- Non-primitive or reference ---------
 // array
 // object
 // function
@@ -57,3 +57,4 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello world!")
 }
+
